@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicios del DOM</title>
+    <link rel="stylesheet" href="./css/hamburgers.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/ball.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Ejercicios del DOM</h1>
+    </header>
+    <div class="hamburger-container">
+      <button class="hamburger hamburger--3dx" type="button" id="hamburger">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </div>
+    <nav class="nav invisible">
+      <ul>
+        <li><a href="#section1">Reloj digital y alarma sonora</a></li>
+        <li><a href="#section2">Eventos del teclado</a></li>
+        <li><a href="#section3">Sección 3</a></li>
+        <li><a href="#section4">Sección 4</a></li>
+        <li><a href="#section5">Sección 5</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="section1">
+        <h1>Reloj digital y alarma sonora</h1>
+        <div class="clock-container">
+          <h1 id="clock" style="display: none">XX:XX:XX</h1>
+        </div>
+        <div class="clock-buttons">
+          <button id="init-clock">Iniciar reloj</button>
+          <button id="stop-clock">Detener reloj</button>
+          <button id="init-alarm">Iniciar alarma</button>
+          <button id="stop-alarm">Detener alarma</button>
+        </div>
+      </section>
+      <section id="section2">
+        <h1>Eventos del teclado</h1>
+        <div class="back-ball">
+          <div class="ball"></div>
+        </div>
+      </section>
+      <section id="section3">
+        <h1>Sección 3</h1>
+      </section>
+      <section id="section4">
+        <h1>Sección 4</h1>
+      </section>
+      <section id="section5">
+        <h1>Sección 5</h1>
+      </section>
+    </main>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>
