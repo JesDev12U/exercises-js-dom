@@ -19,4 +19,8 @@ export default function ballFun(ball) {
       $ball.style.left = `${++left}%`;
     }
   });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "a" && e.altKey) alert("Hola");
+  });
 }
