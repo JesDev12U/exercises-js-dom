@@ -4,6 +4,7 @@ import alarm from "./alarm.js";
 import ballFun from "./ball.js";
 import countdown from "./countdown.js";
 import upScroll from "./up_scroll.js";
+import darkLight from "./dark_light.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   hamburgerFunction("#hamburger", ".nav", ".hamburger-container");
@@ -12,4 +13,5 @@ document.addEventListener("DOMContentLoaded", () => {
   ballFun(".ball");
   countdown("#countdown", "#message", new Date(2024, 3, 22));
   upScroll(".up");
+  darkLight(".dark-light", ".main", ".back-ball");
 });
