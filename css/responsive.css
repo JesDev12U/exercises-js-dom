@@ -1,0 +1,23 @@
+@media screen and (max-width: 950px) {
+    .up {
+        right: 13%;
+    }
+}
+
+@media screen and (max-width: 692px) {
+    .up {
+        right: 18%;
+    }
+}
+
+@media screen and (max-width: 444px) {
+    .up {
+        right: 20%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .up {
+        right: 25%;
+    }
+}
