@@ -9,6 +9,7 @@ import responsive from "./responsive.js";
 import responsiveTester from "./responsive_tester.js";
 import userAgent from "./user_agent.js";
 import onOffLine from "./on_off_line.js";
+import webcam from "./webcam.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   hamburgerFunction("#hamburger", ".nav", ".hamburger-container");
@@ -33,6 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
   responsiveTester("form-responsive-tester");
   userAgent(".user-agent");
   onOffLine();
+  webcam("webcam");
 });
 
 darkLight(".dark-light", ".main", ".back-ball");
