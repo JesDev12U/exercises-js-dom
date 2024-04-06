@@ -13,5 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
   ballFun(".ball");
   countdown("#countdown", "#message", new Date(2024, 3, 22));
   upScroll(".up");
-  darkLight(".dark-light", ".main", ".back-ball");
 });
+
+darkLight(".dark-light", ".main", ".back-ball");
