@@ -162,3 +162,14 @@ nav ul li a:hover {
     background-color: black;
     color: yellow
 }
+
+#youtube a,
+#gmaps a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: yellow;
+}
+
+#section4 {
+    height: 150vh;
+}
