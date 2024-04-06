@@ -1,0 +1,19 @@
+.online,
+.offline {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    z-index: 2;
+    top:0;
+}
+
+.online {
+    background-color: green;
+}
+
+.offline {
+    background-color: red;
+}

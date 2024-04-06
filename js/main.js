@@ -8,6 +8,7 @@ import darkLight from "./dark_light.js";
 import responsive from "./responsive.js";
 import responsiveTester from "./responsive_tester.js";
 import userAgent from "./user_agent.js";
+import onOffLine from "./on_off_line.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   hamburgerFunction("#hamburger", ".nav", ".hamburger-container");
@@ -31,6 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   responsiveTester("form-responsive-tester");
   userAgent(".user-agent");
+  onOffLine();
 });
 
 darkLight(".dark-light", ".main", ".back-ball");
