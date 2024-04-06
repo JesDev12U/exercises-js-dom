@@ -15,6 +15,10 @@
     background-color: black;
 }
 
+.back-ball.dark {
+    background-color: rgba(255, 255, 255, 0.356);
+}
+
 .ball {
     position: absolute;
     width: 50px;
