@@ -6,6 +6,7 @@ import countdown from "./countdown.js";
 import upScroll from "./up_scroll.js";
 import darkLight from "./dark_light.js";
 import responsive from "./responsive.js";
+import responsiveTester from "./responsive_tester.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   hamburgerFunction("#hamburger", ".nav", ".hamburger-container");
@@ -26,6 +27,8 @@ document.addEventListener("DOMContentLoaded", () => {
     `<a href="https://maps.app.goo.gl/tKNWQwCZariHfqae6" target="_blank">Ver mapa</a>`,
     `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.3822354361732!2d-99.09442779045852!3d19.395883981800136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fc2e3efc321b%3A0xabf8454acb3a3a99!2sUPIICSA%20%E2%80%93%20Unidad%20Profesional%20Interdisciplinaria%20de%20Ingenier%C3%ADa%20y%20Ciencias%20Sociales%20y%20Administrativas%20IPN!5e0!3m2!1ses-419!2smx!4v1712370592862!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
   );
+
+  responsiveTester("form-responsive-tester");
 });
 
 darkLight(".dark-light", ".main", ".back-ball");
