@@ -10,6 +10,7 @@ import responsiveTester from "./responsive_tester.js";
 import userAgent from "./user_agent.js";
 import onOffLine from "./on_off_line.js";
 import webcam from "./webcam.js";
+import getGeololatitation from "./geolocalitation.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   hamburgerFunction("#hamburger", ".nav", ".hamburger-container");
@@ -35,6 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
   userAgent(".user-agent");
   onOffLine();
   webcam("webcam");
+  getGeololatitation("geolocalitation");
 });
 
 darkLight(".dark-light", ".main", ".back-ball");

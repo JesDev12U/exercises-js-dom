@@ -61,6 +61,7 @@ nav {
     z-index: 1;
     transform: translateX(-200%);
     transition: tranform 0.5s ease;
+    overflow-y: auto;
 }
 
 .nav.visible {
