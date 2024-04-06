@@ -7,6 +7,7 @@ import upScroll from "./up_scroll.js";
 import darkLight from "./dark_light.js";
 import responsive from "./responsive.js";
 import responsiveTester from "./responsive_tester.js";
+import userAgent from "./user_agent.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   hamburgerFunction("#hamburger", ".nav", ".hamburger-container");
@@ -29,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   responsiveTester("form-responsive-tester");
+  userAgent(".user-agent");
 });
 
 darkLight(".dark-light", ".main", ".back-ball");
