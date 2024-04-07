@@ -1,0 +1,21 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 3rem;
+}
+
+.card {
+    background-color: rgb(196, 117, 22);
+    transition: all 0.5s ease;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.filter {
+    visibility: hidden;
+    opacity: 0;
+    order: 1;
+}

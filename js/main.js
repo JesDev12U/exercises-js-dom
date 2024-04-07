@@ -11,6 +11,7 @@ import userAgent from "./user_agent.js";
 import onOffLine from "./on_off_line.js";
 import webcam from "./webcam.js";
 import getGeololatitation from "./geolocalitation.js";
+import filterCards from "./filter_cards.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   hamburgerFunction("#hamburger", ".nav", ".hamburger-container");
@@ -37,6 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
   onOffLine();
   webcam("webcam");
   getGeololatitation("geolocalitation");
+  filterCards("card-filter", ".card");
 });
 
 darkLight(".dark-light", ".main", ".back-ball");
