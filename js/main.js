@@ -13,6 +13,7 @@ import webcam from "./webcam.js";
 import getGeololatitation from "./geolocalitation.js";
 import filterCards from "./filter_cards.js";
 import lottery from "./lottery.js";
+import slider from "./slider.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   hamburgerFunction("#hamburger", ".nav", ".hamburger-container");
@@ -41,6 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
   getGeololatitation("geolocalitation");
   filterCards("card-filter", ".card");
   lottery("#languages", "#winner-lottery");
+  slider(".slider-slide", ".slider-buttons", "#prev", "#next");
 });
 
 darkLight(".dark-light", ".main", ".back-ball");
