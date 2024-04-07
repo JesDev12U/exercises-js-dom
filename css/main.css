@@ -99,7 +99,8 @@ nav ul li a {
     text-align: center;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+nav ul li a.active {
     background-color: yellow;
     color: black;
 }
