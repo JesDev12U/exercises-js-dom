@@ -5,6 +5,7 @@ export default function darkLight(btn, main, backBall) {
   const darkMode = () => {
     $main.classList.add("dark");
     $backBall.classList.add("dark");
+    document.body.classList.add("body-dark");
     $btn.classList.remove("fa-moon");
     $btn.classList.add("fa-sun");
     localStorage.setItem("theme", "dark");
@@ -13,6 +14,7 @@ export default function darkLight(btn, main, backBall) {
   const lightMode = () => {
     $main.classList.remove("dark");
     $backBall.classList.remove("dark");
+    document.body.classList.remove("body-dark");
     $btn.classList.remove("fa-sun");
     $btn.classList.add("fa-moon");
     localStorage.setItem("theme", "light");

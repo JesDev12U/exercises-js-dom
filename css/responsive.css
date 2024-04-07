@@ -21,3 +21,49 @@
         right: 25%;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    body {
+        display: grid;
+        grid-template-columns: 80% 20%;
+        grid-template-rows: 4rem auto;
+        grid-template-areas: 
+        "header header" "main nav";
+    }
+
+    .up {
+        right: 25%;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    nav {
+        grid-area: nav;
+        position: sticky;
+        top: 5rem;
+        justify-content: start;
+        align-items: start;
+        height: 80vh;
+        overflow-x: hidden;
+    }
+
+    .nav.invisible {
+        transform: translate(0, 0);
+    }
+
+    nav ul li a {
+        font-size: 1.2rem;
+        width: 90%;
+        text-align: right;
+    }
+
+    .hamburger-container {
+        display: none;
+    }
+}

@@ -9,6 +9,10 @@ body {
     overflow-x: hidden;
 }
 
+.body-dark {
+    background-color: black;
+}
+
 header {
     position: fixed;
     width: 100%;
@@ -23,7 +27,7 @@ header {
 main {
     text-align: center;
     position: relative;
-    top:40%;
+    top:0;
 }
 
 section {
@@ -60,7 +64,7 @@ nav {
     align-items: center;
     z-index: 1;
     transform: translateX(-200%);
-    transition: tranform 0.5s ease;
+    transition: transform 0.5s ease;
     overflow-y: auto;
 }
 
@@ -88,10 +92,10 @@ nav ul li {
 nav ul li a {
     display: block;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-decoration: none;
     color: yellow;
-    padding: 30px;
+    padding: 10px;
     text-align: center;
 }
 
