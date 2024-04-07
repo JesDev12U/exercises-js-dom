@@ -187,3 +187,11 @@ nav ul li a.active {
 #section9 {
     height: auto;
 }
+
+#section12 {
+    height: auto
+}
+
+#section12 video{
+    width: 70%;
+}

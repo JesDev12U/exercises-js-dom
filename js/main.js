@@ -15,6 +15,7 @@ import filterCards from "./filter_cards.js";
 import lottery from "./lottery.js";
 import slider from "./slider.js";
 import scrollSpy from "./scrollspy.js";
+import videoSpy from "./video_spy.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   hamburgerFunction("#hamburger", ".nav", ".hamburger-container");
@@ -45,6 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
   lottery("#languages", "#winner-lottery");
   slider(".slider-slide", ".slider-buttons", "#prev", "#next");
   scrollSpy();
+  videoSpy();
 });
 
 darkLight(".dark-light", ".main", ".back-ball");
