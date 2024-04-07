@@ -12,6 +12,7 @@ import onOffLine from "./on_off_line.js";
 import webcam from "./webcam.js";
 import getGeololatitation from "./geolocalitation.js";
 import filterCards from "./filter_cards.js";
+import lottery from "./lottery.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   hamburgerFunction("#hamburger", ".nav", ".hamburger-container");
@@ -39,6 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
   webcam("webcam");
   getGeololatitation("geolocalitation");
   filterCards("card-filter", ".card");
+  lottery("#languages", "#winner-lottery");
 });
 
 darkLight(".dark-light", ".main", ".back-ball");
