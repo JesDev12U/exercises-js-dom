@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/on_off_line.css" />
     <link rel="stylesheet" href="./css/cards.css" />
     <link rel="stylesheet" href="./css/slider.css" />
+    <link rel="stylesheet" href="./css/form_contact.css" />
     <script
       src="https://kit.fontawesome.com/ecae724dfb.js"
       crossorigin="anonymous"
@@ -53,7 +54,9 @@
         <li><a href="#section10" data-scroll-spy>Sorteo digital</a></li>
         <li><a href="#section11" data-scroll-spy>Responsive slider</a></li>
         <li><a href="#section12" data-scroll-spy>Video inteligente</a></li>
-        <li><a href="#section13" data-scroll-spy>Section 13</a></li>
+        <li>
+          <a href="#section13" data-scroll-spy>Validación de formularios</a>
+        </li>
       </ul>
     </nav>
     <main class="main">
@@ -230,7 +233,56 @@
         ></video>
       </section>
       <section id="section13" data-scroll-spy>
-        <h1>Section 13</h1>
+        <h1>Validación de formularios</h1>
+        <form
+          class="contact-form"
+          action="https://formsubmit.co/lopezbandalajesusantonio@gmail.com"
+          method="post"
+        >
+          <legend>Envíanos tus comentarios</legend>
+          <input
+            type="text"
+            name="name"
+            placeholder="Escribe tu nombre"
+            title="El nombre sólo acepta letras y espacios en blanco"
+            pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúüÜ\s]+$"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Escribe tu correo electrónico"
+            title="El correo electrónico es incorrecto"
+            patten="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+            required
+          />
+          <input
+            type="text"
+            name="subject"
+            placeholder="Asunto a tratar"
+            title="El asunto es requerido"
+            required
+          />
+          <textarea
+            name="comments"
+            cols="50"
+            rows="5"
+            placeholder="Escribe tus comentarios"
+            data-pattern="^.{1,255}$"
+            title="Tu comentario no debe exceder los 255 caracteres"
+            required
+          ></textarea>
+          <input type="submit" value="Enviar" />
+          <div class="contact-form-loader none">
+            <img
+              src="https://fut7.pt/wp-content/plugins/appspinner/assets/images/gif-loader.gif"
+              alt="Cargando"
+            />
+          </div>
+          <div class="contact-form-response none">
+            <p>Los datos han sido enviados</p>
+          </div>
+        </form>
       </section>
     </main>
     <script src="./js/main.js" type="module"></script>

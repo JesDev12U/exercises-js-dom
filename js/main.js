@@ -16,6 +16,7 @@ import lottery from "./lottery.js";
 import slider from "./slider.js";
 import scrollSpy from "./scrollspy.js";
 import videoSpy from "./video_spy.js";
+import validationFormContact from "./validation_form_contact.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   hamburgerFunction("#hamburger", ".nav", ".hamburger-container");
@@ -47,6 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
   slider(".slider-slide", ".slider-buttons", "#prev", "#next");
   scrollSpy();
   videoSpy();
+  validationFormContact();
 });
 
 darkLight(".dark-light", ".main", ".back-ball");
