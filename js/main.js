@@ -17,6 +17,7 @@ import slider from "./slider.js";
 import scrollSpy from "./scrollspy.js";
 import videoSpy from "./video_spy.js";
 import validationFormContact from "./validation_form_contact.js";
+import speechReader from "./speech.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   hamburgerFunction("#hamburger", ".nav", ".hamburger-container");
@@ -52,3 +53,4 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 darkLight(".dark-light", ".main", ".back-ball");
+speechReader();
